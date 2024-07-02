@@ -1,0 +1,6 @@
+{
+	// Redis 链接字符串
+	// https://github.com/2881099/FreeRedis/blob/master/README.zh-CN.md
+	// 支持多个连接组成集群；如果设置多个连接字符串请保证 Redis 服务器开启了集群，否则将出现异常
+	"Conns": [ "10.10.10.1:6379,password=redis,defaultDatabase=0,prefix=DALI:" ]
+}

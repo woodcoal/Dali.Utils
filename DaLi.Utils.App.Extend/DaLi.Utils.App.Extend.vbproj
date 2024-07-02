@@ -1,0 +1,42 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+	<PropertyGroup>
+		<RootNamespace>DaLi.Utils.App</RootNamespace>
+		<TargetFramework>net6.0</TargetFramework>
+		<OutputType>Library</OutputType>
+		<Title>大沥网络 · 公共库 · 扩展</Title>
+	</PropertyGroup>
+
+	<Import Project="..\DaLi.Utils.props" />
+
+	<ItemGroup>
+	  <Content Include=".config\database.json">
+	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+	  </Content>
+	  <Content Include=".config\jwt.json">
+	    <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+	  </Content>
+	</ItemGroup>
+	
+	<ItemGroup>
+		<Import Include="DaLi.Utils.App.Attribute" />
+		<Import Include="DaLi.Utils.App.Base" />
+		<Import Include="DaLi.Utils.App.Entity" />
+		<Import Include="DaLi.Utils.App.Extension" />
+		<Import Include="DaLi.Utils.App.Helper" />
+		<Import Include="DaLi.Utils.App.Interface" />
+		<Import Include="DaLi.Utils.App.Model" />
+		<Import Include="DaLi.Utils.App.Provider" />
+		<Import Include="DaLi.Utils.App.Setting" />
+		<Import Include="DaLi.Utils.App.Service" />
+	</ItemGroup>
+	
+	<ItemGroup>
+		<PackageReference Include="ToolGood.Words" Version="3.1.0" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<ProjectReference Include="..\DaLi.Utils.App.Plugin.Extend\DaLi.Utils.App.Plugin.Extend.vbproj" />
+		<ProjectReference Include="..\DaLi.Utils.App\DaLi.Utils.App.vbproj" />
+	</ItemGroup>
+</Project>
+

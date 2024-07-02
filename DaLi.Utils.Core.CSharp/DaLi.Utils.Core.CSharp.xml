@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Dali.Utils.Core.CSharp</name>
+    </assembly>
+    <members>
+        <member name="T:DaLi.Utils.Misc.JsonConverterBase">
+            <summary>JSON 自定义转换</summary>
+        </member>
+        <member name="M:DaLi.Utils.Misc.JsonConverterBase.Read(System.Text.Json.JsonElement)">
+            <summary>反序列化</summary>
+        </member>
+        <member name="M:DaLi.Utils.Misc.JsonConverterBase.Read(System.Text.Json.Utf8JsonReader@,System.Type,System.Text.Json.JsonSerializerOptions)">
+            <summary>读取，已经处理基本类型 true, false, null</summary>
+        </member>
+        <member name="T:DaLi.Utils.Misc.JsonConverterDefault">
+            <summary>JSON 默认转换</summary>
+        </member>
+        <member name="F:DaLi.Utils.Misc.JsonConverterDefault._JsonElementParse">
+            <summary>解析节点</summary>
+        </member>
+        <member name="M:DaLi.Utils.Misc.JsonConverterDefault.#ctor(System.Func{System.Text.Json.JsonElement,System.Object})">
+            <summary>构造</summary>
+        </member>
+        <member name="M:DaLi.Utils.Misc.JsonConverterDefault.Write(System.Text.Json.Utf8JsonWriter,System.Object,System.Text.Json.JsonSerializerOptions)">
+            <summary>写入</summary>
+        </member>
+        <member name="M:DaLi.Utils.Misc.JsonConverterDefault.Read(System.Text.Json.Utf8JsonReader@,System.Type,System.Text.Json.JsonSerializerOptions)">
+            <summary>读取</summary>
+        </member>
+    </members>
+</doc>

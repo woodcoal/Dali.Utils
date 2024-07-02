@@ -1,0 +1,12 @@
+{
+  "profiles": {
+    "DaLi.Utils.App.Plugin.Swashbuckle": {
+      "commandName": "Project",
+      "launchBrowser": true,
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development"
+      },
+      "applicationUrl": "https://localhost:50668;http://localhost:50669"
+    }
+  }
+}

@@ -1,0 +1,2 @@
+﻿[*.{vb}]
+file_header_template = ------------------------------------------------------------\n\n	Copyright © 2021 湖南大沥网络科技有限公司.\n	Dali.Utils Is licensed under Mulan PSL v2.\n\n	  author:	木炭(WOODCOAL)\n	   email:	a@hndl.vip\n	homepage:	http://www.hunandali.com/\n\n	请依据 Mulan PSL v2 的条款使用本项目。获取 Mulan PSL v2 请浏览 http://license.coscl.org.cn/MulanPSL2\n\n------------------------------------------------------------\n\n	title\n\n	name: {fileName}\n	create: 2024\n	memo: introduce\n\n------------------------------------------------------------

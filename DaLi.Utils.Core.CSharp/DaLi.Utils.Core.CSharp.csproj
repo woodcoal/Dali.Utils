@@ -1,0 +1,11 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<TargetFramework>net6.0</TargetFramework>
+		<RootNamespace>DaLi.Utils</RootNamespace>
+		<Title>大沥网络 · 公共库 · 核心 C#</Title>
+	</PropertyGroup>
+
+	<Import Project="..\DaLi.Utils.props" />
+
+</Project>

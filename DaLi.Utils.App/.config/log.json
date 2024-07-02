@@ -1,0 +1,14 @@
+{
+
+	"File": 1, // 系统内部操作日志是否记录到文件（0：Trace； 1：Debug； 2：Information； 3：Warning； 4：Error； 5：Critical； 6：None）
+	"FileFoler": ".log", // 日志存储目录
+	"FileDays": 7, // 文件日志保存最长时间，超过此时间的日志将被删除
+
+	"Console": 0, // 系统内部操作日志是否输出到控制台（0：Trace； 1：Debug； 2：Information； 3：Warning； 4：Error； 5：Critical； 6：None）
+
+	"Server": 2, // 系统内部操作日志是否输出到服务器（0：Trace； 1：Debug； 2：Information； 3：Warning； 4：Error； 5：Critical； 6：None）
+	"Server_Url": "https://log.hndl.vip", //日志服务器
+	"Server_Token": "QMwo5t80b5RlnmTRqyYs", // 日志服务器 Token
+
+	"Http": 1 // 是否记录 api 访问信息（0：不记录，1：记录有所，2：仅仅记录访问成功，3：仅仅记录非成功访问，4：仅仅 4xx 错误，3：仅仅记录 5xx 错误）;如果需要记录 HTTP 请求信息，请注意级别：http 请求异常及 5xx，错误返回 Error / 黑名单：Critical / 4xx 错误，访问时长超过 10s 返回 Warning / 其他 Information
+}

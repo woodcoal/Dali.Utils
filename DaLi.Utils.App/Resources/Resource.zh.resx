@@ -1,0 +1,486 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Controller.ActionName.Add" xml:space="preserve">
+    <value>添加项目</value>
+  </data>
+  <data name="Controller.ActionName.BatchDelete" xml:space="preserve">
+    <value>批量删除</value>
+  </data>
+  <data name="Controller.ActionName.BatchEdit" xml:space="preserve">
+    <value>批量修改</value>
+  </data>
+  <data name="Controller.ActionName.Clear" xml:space="preserve">
+    <value>清理数据</value>
+  </data>
+  <data name="Controller.ActionName.Debug" xml:space="preserve">
+    <value>调试</value>
+  </data>
+  <data name="Controller.ActionName.Delete" xml:space="preserve">
+    <value>删除项目</value>
+  </data>
+  <data name="Controller.ActionName.Edit" xml:space="preserve">
+    <value>编辑项目</value>
+  </data>
+  <data name="Controller.ActionName.Export" xml:space="preserve">
+    <value>导出</value>
+  </data>
+  <data name="Controller.ActionName.Import" xml:space="preserve">
+    <value>导入</value>
+  </data>
+  <data name="Controller.ActionName.Item" xml:space="preserve">
+    <value>获取项目</value>
+  </data>
+  <data name="Controller.ActionName.List" xml:space="preserve">
+    <value>项目列表</value>
+  </data>
+  <data name="Controller.ActionName.Login" xml:space="preserve">
+    <value>登录</value>
+  </data>
+  <data name="Controller.ActionName.Logout" xml:space="preserve">
+    <value>注销</value>
+  </data>
+  <data name="Controller.ActionName.Parents" xml:space="preserve">
+    <value>上级列表</value>
+  </data>
+  <data name="Controller.ActionName.Query" xml:space="preserve">
+    <value>查询项目</value>
+  </data>
+  <data name="Controller.ActionName.Refresh" xml:space="preserve">
+    <value>刷新</value>
+  </data>
+  <data name="Controller.ActionName.Search" xml:space="preserve">
+    <value>搜索</value>
+  </data>
+  <data name="Controller.ActionName.Setting" xml:space="preserve">
+    <value>配置管理</value>
+  </data>
+  <data name="Controller.ActionName.Tree" xml:space="preserve">
+    <value>分级列表</value>
+  </data>
+  <data name="Controller.Name.Dashboard" xml:space="preserve">
+    <value>仪表台</value>
+  </data>
+  <data name="Controller.Name.Home" xml:space="preserve">
+    <value>首页</value>
+  </data>
+  <data name="Error.Action" xml:space="preserve">
+    <value>操作失败</value>
+  </data>
+  <data name="Error.Auth.Role" xml:space="preserve">
+    <value>未通过用户授权检测</value>
+  </data>
+  <data name="Error.Auth.Super" xml:space="preserve">
+    <value>请重新授权后操作</value>
+  </data>
+  <data name="Error.Auth.User" xml:space="preserve">
+    <value>未授权用户</value>
+  </data>
+  <data name="Error.BadKeyword" xml:space="preserve">
+    <value>存在非法关键词</value>
+  </data>
+  <data name="Error.BadUser" xml:space="preserve">
+    <value>存在禁用用户词</value>
+  </data>
+  <data name="Error.Captcha" xml:space="preserve">
+    <value>验证码错误</value>
+  </data>
+  <data name="Error.Client.Auth" xml:space="preserve">
+    <value>当前应用无效，请使用有效的应用访问</value>
+  </data>
+  <data name="Error.Client.Request" xml:space="preserve">
+    <value>当前应用请求迷路了，无法访问当前项目</value>
+  </data>
+  <data name="Error.Client.Role" xml:space="preserve">
+    <value>当前应用无此接口访问权限，需先授权后再访问</value>
+  </data>
+  <data name="Error.Client.Update" xml:space="preserve">
+    <value>系统正在升级，请稍后访问</value>
+  </data>
+  <data name="Error.Client.Validate" xml:space="preserve">
+    <value>无效应用，应用配置参数与系统不一致</value>
+  </data>
+  <data name="Error.Client.Version" xml:space="preserve">
+    <value>当前应用版本太低，请先升级到新版本</value>
+  </data>
+  <data name="Error.Date.Before" xml:space="preserve">
+    <value>结束时间不能早于开始时间</value>
+  </data>
+  <data name="Error.Disable.System" xml:space="preserve">
+    <value>不允许操作系统数据</value>
+  </data>
+  <data name="Error.Duplicate" xml:space="preserve">
+    <value>存在相同的数据</value>
+  </data>
+  <data name="Error.File.Delete" xml:space="preserve">
+    <value>文件删除失败</value>
+  </data>
+  <data name="Error.File.Move" xml:space="preserve">
+    <value>文件移动失败</value>
+  </data>
+  <data name="Error.File.Provider" xml:space="preserve">
+    <value>文件管理驱动异常</value>
+  </data>
+  <data name="Error.File.Save" xml:space="preserve">
+    <value>文件保存失败</value>
+  </data>
+  <data name="Error.File.Size" xml:space="preserve">
+    <value>文件大小超过限制</value>
+  </data>
+  <data name="Error.Format" xml:space="preserve">
+    <value>格式错误</value>
+  </data>
+  <data name="Error.Format.Email" xml:space="preserve">
+    <value>格式错误，请输入有效的邮箱</value>
+  </data>
+  <data name="Error.Format.MobilePhone" xml:space="preserve">
+    <value>格式错误，请输入有效的手机号码</value>
+  </data>
+  <data name="Error.Format.Phone" xml:space="preserve">
+    <value>格式错误，请输入有效的电话号码</value>
+  </data>
+  <data name="Error.Format.Url" xml:space="preserve">
+    <value>格式错误，请输入有效的网址</value>
+  </data>
+  <data name="Error.Invalid" xml:space="preserve">
+    <value>数据无效或者请求参数异常</value>
+  </data>
+  <data name="Error.Login" xml:space="preserve">
+    <value>请先登录后再操作</value>
+  </data>
+  <data name="Error.Login.Account" xml:space="preserve">
+    <value>账号密码无效</value>
+  </data>
+  <data name="Error.Login.Lock" xml:space="preserve">
+    <value>账号已经被禁用</value>
+  </data>
+  <data name="Error.Login.Match" xml:space="preserve">
+    <value>账号密码不匹配</value>
+  </data>
+  <data name="Error.Login.System" xml:space="preserve">
+    <value>系统异常</value>
+  </data>
+  <data name="Error.MustBatch" xml:space="preserve">
+    <value>只允许批量操作</value>
+  </data>
+  <data name="Error.NoAction" xml:space="preserve">
+    <value>不允许此操作</value>
+  </data>
+  <data name="Error.NoBatch" xml:space="preserve">
+    <value>不允许批量操作</value>
+  </data>
+  <data name="Error.NoData" xml:space="preserve">
+    <value>未设置有效数据</value>
+  </data>
+  <data name="Error.NoPower" xml:space="preserve">
+    <value>无此操作权限</value>
+  </data>
+  <data name="Error.NotFound" xml:space="preserve">
+    <value>数据不存在</value>
+  </data>
+  <data name="Error.User.Type" xml:space="preserve">
+    <value>无效用户类型</value>
+  </data>
+  <data name="Error.Validate.Account" xml:space="preserve">
+    <value>仅允许字母或者数字，且必须字母开头</value>
+  </data>
+  <data name="Error.Validate.Delete" xml:space="preserve">
+    <value>删除失败或者不允许删除此数据</value>
+  </data>
+  <data name="Error.Validate.Password" xml:space="preserve">
+    <value>必须包含英文字符，最少6个最多20个字符</value>
+  </data>
+  <data name="Error.Validate.Required" xml:space="preserve">
+    <value>必须填写</value>
+  </data>
+  <data name="Error.Validate.Stringmax" xml:space="preserve">
+    <value>最多允许字符长度</value>
+  </data>
+  <data name="Model.Name.Account" xml:space="preserve">
+    <value>账号</value>
+  </data>
+  <data name="Model.Name.Attributes" xml:space="preserve">
+    <value>属性</value>
+  </data>
+  <data name="Model.Name.Childs" xml:space="preserve">
+    <value>子项列表</value>
+  </data>
+  <data name="Model.Name.Client" xml:space="preserve">
+    <value>客户端</value>
+  </data>
+  <data name="Model.Name.ClientId" xml:space="preserve">
+    <value>客户端标识</value>
+  </data>
+  <data name="Model.Name.ClientName" xml:space="preserve">
+    <value>客户端名称</value>
+  </data>
+  <data name="Model.Name.Company" xml:space="preserve">
+    <value>企业</value>
+  </data>
+  <data name="Model.Name.CompanyId" xml:space="preserve">
+    <value>企业标识</value>
+  </data>
+  <data name="Model.Name.Content" xml:space="preserve">
+    <value>内容</value>
+  </data>
+  <data name="Model.Name.Count" xml:space="preserve">
+    <value>数量</value>
+  </data>
+  <data name="Model.Name.Counter" xml:space="preserve">
+    <value>统计</value>
+  </data>
+  <data name="Model.Name.CreateBy" xml:space="preserve">
+    <value>创建者</value>
+  </data>
+  <data name="Model.Name.CreateTime" xml:space="preserve">
+    <value>创建时间</value>
+  </data>
+  <data name="Model.Name.Desc" xml:space="preserve">
+    <value>描述</value>
+  </data>
+  <data name="Model.Name.Description" xml:space="preserve">
+    <value>描述</value>
+  </data>
+  <data name="Model.Name.Dictionary" xml:space="preserve">
+    <value>属性</value>
+  </data>
+  <data name="Model.Name.Disabled" xml:space="preserve">
+    <value>禁用</value>
+  </data>
+  <data name="Model.Name.Enabled" xml:space="preserve">
+    <value>有效</value>
+  </data>
+  <data name="Model.Name.Extension" xml:space="preserve">
+    <value>扩展内容</value>
+  </data>
+  <data name="Model.Name.Field" xml:space="preserve">
+    <value>字段</value>
+  </data>
+  <data name="Model.Name.File" xml:space="preserve">
+    <value>文件</value>
+  </data>
+  <data name="Model.Name.Hidden" xml:space="preserve">
+    <value>隐藏</value>
+  </data>
+  <data name="Model.Name.Icon" xml:space="preserve">
+    <value>图标</value>
+  </data>
+  <data name="Model.Name.ID" xml:space="preserve">
+    <value>标识</value>
+  </data>
+  <data name="Model.Name.Index" xml:space="preserve">
+    <value>索引</value>
+  </data>
+  <data name="Model.Name.Key" xml:space="preserve">
+    <value>键</value>
+  </data>
+  <data name="Model.Name.Keyword" xml:space="preserve">
+    <value>关键词</value>
+  </data>
+  <data name="Model.Name.Keywords" xml:space="preserve">
+    <value>关键词</value>
+  </data>
+  <data name="Model.Name.Leader" xml:space="preserve">
+    <value>负责人</value>
+  </data>
+  <data name="Model.Name.Memo" xml:space="preserve">
+    <value>备注</value>
+  </data>
+  <data name="Model.Name.Module" xml:space="preserve">
+    <value>模型</value>
+  </data>
+  <data name="Model.Name.ModuleId" xml:space="preserve">
+    <value>模型标识</value>
+  </data>
+  <data name="Model.Name.ModuleName" xml:space="preserve">
+    <value>模型名称</value>
+  </data>
+  <data name="Model.Name.ModuleType" xml:space="preserve">
+    <value>模型类型</value>
+  </data>
+  <data name="Model.Name.Money" xml:space="preserve">
+    <value>价值</value>
+  </data>
+  <data name="Model.Name.Name" xml:space="preserve">
+    <value>名称</value>
+  </data>
+  <data name="Model.Name.Number" xml:space="preserve">
+    <value>数量</value>
+  </data>
+  <data name="Model.Name.Parent" xml:space="preserve">
+    <value>上级</value>
+  </data>
+  <data name="Model.Name.ParentId" xml:space="preserve">
+    <value>上级标识</value>
+  </data>
+  <data name="Model.Name.Password" xml:space="preserve">
+    <value>密码</value>
+  </data>
+  <data name="Model.Name.Point" xml:space="preserve">
+    <value>积分</value>
+  </data>
+  <data name="Model.Name.Price" xml:space="preserve">
+    <value>价格</value>
+  </data>
+  <data name="Model.Name.Relation" xml:space="preserve">
+    <value>关系</value>
+  </data>
+  <data name="Model.Name.Role" xml:space="preserve">
+    <value>角色</value>
+  </data>
+  <data name="Model.Name.Show" xml:space="preserve">
+    <value>显示</value>
+  </data>
+  <data name="Model.Name.Size" xml:space="preserve">
+    <value>大小</value>
+  </data>
+  <data name="Model.Name.Source" xml:space="preserve">
+    <value>来源</value>
+  </data>
+  <data name="Model.Name.Tags" xml:space="preserve">
+    <value>标签</value>
+  </data>
+  <data name="Model.Name.Taxis" xml:space="preserve">
+    <value>顺序</value>
+  </data>
+  <data name="Model.Name.Title" xml:space="preserve">
+    <value>标题</value>
+  </data>
+  <data name="Model.Name.Type" xml:space="preserve">
+    <value>类型</value>
+  </data>
+  <data name="Model.Name.UpdateBy" xml:space="preserve">
+    <value>更新者</value>
+  </data>
+  <data name="Model.Name.UpdateTime" xml:space="preserve">
+    <value>更新时间</value>
+  </data>
+  <data name="Model.Name.User" xml:space="preserve">
+    <value>用户</value>
+  </data>
+  <data name="Model.Name.UserId" xml:space="preserve">
+    <value>用户标识</value>
+  </data>
+  <data name="Model.Name.UserName" xml:space="preserve">
+    <value>用户名</value>
+  </data>
+  <data name="Model.Name.Value" xml:space="preserve">
+    <value>值</value>
+  </data>
+</root>

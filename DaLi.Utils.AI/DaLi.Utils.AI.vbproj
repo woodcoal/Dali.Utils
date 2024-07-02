@@ -1,0 +1,21 @@
+<Project Sdk="Microsoft.NET.Sdk">
+	<Import Project="..\DaLi.Utils.props" />
+	
+	<PropertyGroup>
+		<TargetFramework>net6.0</TargetFramework>
+		<RootNamespace>DaLi.Utils.AI</RootNamespace>
+		<Title>大沥网络 · 公共库 · AI</Title>
+		<Description>**基于 .Net 常用 AI 接口公共库**
+支持的接口包括：
+1. Ollama AI 接口，文本补全与对话、模型列表
+2. OneAPI 接口，文本补全与对话、模型列表
+3. Dify 接口，支持知识库与流程
+
+其中 OneAPI 使用类 OpenAI 接口，理论上两者可以直接兼容。</Description>
+	</PropertyGroup>
+
+	<ItemGroup>
+	  <ProjectReference Include="..\DaLi.Utils.Core\DaLi.Utils.Core.vbproj" />
+	</ItemGroup>
+
+</Project>

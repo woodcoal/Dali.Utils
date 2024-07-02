@@ -1,0 +1,7 @@
+﻿{
+	"Connections": {
+		"default": "mysql://Server=10.10.10.250;Database=dali;uid=dali;password=I@woodcoal8;ConvertZeroDateTime=True;Charset=utf8mb4",
+		"log": "mysql://Server=10.10.10.250;Database=log;uid=log;password=I@woodcoal8;ConvertZeroDateTime=True;Charset=utf8mb4"
+	},
+	"prefix": ""
+}

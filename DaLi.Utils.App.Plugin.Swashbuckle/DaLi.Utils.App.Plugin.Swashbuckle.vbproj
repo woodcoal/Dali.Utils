@@ -1,0 +1,27 @@
+<Project Sdk="Microsoft.NET.Sdk">
+	<PropertyGroup>
+		<RootNamespace>DaLi.Utils.App.Plugin</RootNamespace>
+		<TargetFramework>net6.0</TargetFramework>
+		<OutputType>Library</OutputType>
+		<Title>大沥网络 · 公共库 · 应用 · 插件 · API 文档</Title>
+	</PropertyGroup>
+
+	<Import Project="..\DaLi.Utils.props" />
+
+	<ItemGroup>
+	  <Content Include=".config\swashbuckle.json">
+	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+	  </Content>
+	</ItemGroup>
+
+	<ItemGroup>
+		<PackageReference Include="Swashbuckle.AspNetCore" Version="6.6.2" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<ProjectReference Include="..\DaLi.Utils.App.Plugin\DaLi.Utils.App.Plugin.vbproj">
+			<Private>false</Private>
+			<ExcludeAssets>runtime</ExcludeAssets>
+		</ProjectReference>
+	</ItemGroup>
+</Project>

@@ -1,0 +1,8 @@
+{
+	"Enable": true //是否开启跨域设置
+	// 跨域规则
+	//"Policy": {
+	//	"aaa": "http://localhost",
+	//	"bbb": "http://127.0.0.1"
+	//}
+}

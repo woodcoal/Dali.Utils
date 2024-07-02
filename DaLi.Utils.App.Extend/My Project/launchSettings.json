@@ -1,0 +1,12 @@
+{
+  "profiles": {
+    "DaLi.Utils.App.Extend": {
+      "commandName": "Project",
+      "launchBrowser": true,
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development"
+      },
+      "applicationUrl": "https://localhost:50665;http://localhost:50667"
+    }
+  }
+}

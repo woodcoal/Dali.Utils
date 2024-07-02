@@ -1,0 +1,7 @@
+{
+	"SecurityKey": "", // JWT Token 密匙
+	"Issuer": "Hunan Dali Network Technology Co., LTD", // JWT 颁布机构
+	"Audience": "DaLi.Framework.Test", // JWT 使用者
+	"Expires": 60, // JWT 密匙超时时长，单位：分钟
+	"RefreshExpires": 43200 // JWT 刷新密匙超时时长，必须大于 JWT 密钥时长，单位：分钟
+}

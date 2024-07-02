@@ -1,0 +1,66 @@
+﻿<Project>
+	<PropertyGroup>
+		<VersionPrefix>3.24.702.610</VersionPrefix>
+		<Product>DaLi.Utils</Product>
+		<PackageTags>DaLi.Utils</PackageTags>
+		<PackageId>$(ProjectName)</PackageId>
+		<Description>.Net 常用基础公共库</Description>
+		<Authors>大沥网络</Authors>
+		<Company>湖南大沥网络科技有限公司</Company>
+		<Copyright>Copyright © 2021 湖南大沥网络科技有限公司.</Copyright>
+		<PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
+		<NeutralLanguage>zh-CN</NeutralLanguage>
+		<GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+		<PackageProjectUrl>https://github.com/woodcoal/DaLi.Utils</PackageProjectUrl>
+		<RepositoryUrl>https://github.com/woodcoal/DaLi.Utils</RepositoryUrl>
+		<RepositoryType>git</RepositoryType>
+		<IsPackable>true</IsPackable>
+		<GenerateAssemblyInfo>true</GenerateAssemblyInfo>
+		<SignAssembly>true</SignAssembly>
+		<DelaySign>false</DelaySign>
+		<PackageReadmeFile>README.md</PackageReadmeFile>
+		<GenerateDocumentationFile>True</GenerateDocumentationFile>
+		<PackageIcon>大沥.png</PackageIcon>
+		<PackageReadmeFile>README.md</PackageReadmeFile>
+		<PackageLicenseFile>LICENSE</PackageLicenseFile>
+		<ApplicationIcon>..\大沥.ico</ApplicationIcon>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<None Include="..\LICENSE">
+			<Pack>True</Pack>
+			<PackagePath>\</PackagePath>
+		</None>
+		<None Include="..\README.md">
+			<Pack>True</Pack>
+			<PackagePath>\</PackagePath>
+		</None>
+		<None Include="..\大沥.png">
+			<Pack>True</Pack>
+			<PackagePath>\</PackagePath>
+		</None>
+		<None Include="..\大沥.ico">
+			<Pack>True</Pack>
+			<PackagePath>\</PackagePath>
+		</None>
+	</ItemGroup>
+
+	<ItemGroup>
+		<Import Include="DaLi" />
+		<Import Include="DaLi.Utils" />
+		<Import Include="DaLi.Utils.Attribute" />
+		<Import Include="DaLi.Utils.Extension" />
+		<Import Include="DaLi.Utils.Helper" />
+		<Import Include="DaLi.Utils.Model" />
+		<Import Include="DaLi.Utils.Provider" />
+	</ItemGroup>
+
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+		<OutputPath>T:\Design\__$(AssemblyName)\</OutputPath>
+		<DocumentationFile>$(AssemblyName).xml</DocumentationFile>
+	</PropertyGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
+		<OutputPath>T:\Design\$(AssemblyName)\</OutputPath>
+		<DocumentationFile>$(AssemblyName).xml</DocumentationFile>
+	</PropertyGroup>
+</Project>

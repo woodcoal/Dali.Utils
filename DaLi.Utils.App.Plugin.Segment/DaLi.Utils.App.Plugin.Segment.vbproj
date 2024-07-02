@@ -1,0 +1,62 @@
+<Project Sdk="Microsoft.NET.Sdk">
+	<PropertyGroup>
+		<RootNamespace>DaLi.Utils.App.Plugin</RootNamespace>
+		<TargetFramework>net6.0</TargetFramework>
+		<Description>公共库 · 应用 · 插件 · 分词</Description>
+		<OutputType>Library</OutputType>
+		<EnableDynamicLoading>true</EnableDynamicLoading>
+		<CopyLocalLockFileAssemblies>true</CopyLocalLockFileAssemblies>
+		<ValidateExecutableReferencesMatchSelfContained>false</ValidateExecutableReferencesMatchSelfContained>
+	</PropertyGroup>
+
+	<Import Project="..\DaLi.Utils.props" />
+
+	<ItemGroup>
+		<PackageReference Include="JiebaNet.Analyser" Version="6.42.2" />
+		<PackageReference Include="JiebaNet.Segmenter" Version="6.42.2" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<ProjectReference Include="..\DaLi.Utils.App.Plugin.Extend\DaLi.Utils.App.Plugin.Extend.vbproj" />
+		<ProjectReference Include="..\DaLi.Utils.Core\DaLi.Utils.Core.vbproj" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<None Update="Resources\char_state_tab.json">
+			<CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+		</None>
+		<None Update="Resources\cn_synonym.txt">
+			<CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+		</None>
+		<None Update="Resources\dict.txt">
+			<CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+		</None>
+		<None Update="Resources\idf.txt">
+			<CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+		</None>
+		<None Update="Resources\ip2region.db">
+			<CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+		</None>
+		<None Update="Resources\pos_prob_emit.json">
+			<CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+		</None>
+		<None Update="Resources\pos_prob_start.json">
+			<CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+		</None>
+		<None Update="Resources\pos_prob_trans.json">
+			<CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+		</None>
+		<None Update="Resources\prob_emit.json">
+			<CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+		</None>
+		<None Update="Resources\prob_trans.json">
+			<CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+		</None>
+		<None Update="Resources\stopwords.txt">
+			<CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+		</None>
+		<None Update="Resources\user.txt">
+			<CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+		</None>
+	</ItemGroup>
+</Project>

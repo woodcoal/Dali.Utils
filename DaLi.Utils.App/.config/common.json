@@ -1,0 +1,24 @@
+﻿{
+	"AppName": "大沥管理平台", // 应用名称
+	"TimeDelay": 0, // 系统时间差:秒
+	"Urls": [ "http://*:10000" ], // 用于修改默认监听的域名与端口。如： http://*:6000,http://localhost:8000
+	"Languages": [ "zh", "en" ], // 语言列表：zh,en
+	"RootFolder": ".web", // 应用资源静态文件目录
+	"DataFolder": ".data", // 应用日志等数据目录
+
+	"RoutePrefix": "api", // 全局路由前缀
+
+	// 静态目录数据
+	//"StaticFolder": {
+	//	"style": "style",
+	//	"static": "static"
+	//},
+
+	"Debug": true, // 是否调试模式，调试模式显示详细错误信息
+	"UseStatic": true, // 是否使用静态文件，只有启用了 StaticFolder 才有效；不设置 StaticFolder 则只是用默认主目录
+	"CookiePrefix": "DaLi", // Cookies 前缀
+	"CookieTimeout": 3600, // 3600 Cookies 失效时长
+	"ServerId": 1, // 服务器标识，雪花算法时用于标识设备 ID (范围：1-8)
+
+	"ValidateClient": true // 是否启用客户端校验
+}

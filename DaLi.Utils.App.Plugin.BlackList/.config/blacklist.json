@@ -1,0 +1,8 @@
+{
+	"UserAgentEmpty": false, // 是否允许空白 UserAgent 访问
+	"UserAgents": [], // 黑名单浏览器头
+	"IPs": [], // 黑名单IP
+	"RetrunCode": 444, // 黑名单IP返回状态码，200-600 整数,
+	"RetrunContent": "Hello world!", // 黑名单IP返回内容
+	"Record": true // 日志是否记录黑名单数据
+}
